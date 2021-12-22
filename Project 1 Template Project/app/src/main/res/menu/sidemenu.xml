@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/notification_icon"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/mail_icon"
+            android:title="Messages" />
+
+    </group>
+
+    <item android:title="Item">
+
+        <menu>
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/category_icon"
+            android:title="Categories" />
+
+        <item
+            android:id="@+id/purchases"
+            android:icon="@drawable/purchases_icon"
+            android:title="Purchases" />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="App">
+    <menu>
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/about_us"
+            android:title="About Us" />
+
+    </menu>
+
+    </item>
+
+</menu>

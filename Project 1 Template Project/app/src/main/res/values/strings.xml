@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Template Project</string>
+    <string name="itemcode">Item Code</string>
+    <string name="itemname">Item Name</string>
+    <string name="itemcategory">Item Category</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+
+    <string name="Navigation_open">Open Navigation drawer</string>
+    <string name="Navigation_close">Close Navigation drawer</string>
+
+</resources>
